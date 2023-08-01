@@ -1,10 +1,9 @@
 body {
-  font: 12px/18px 'Google Sans', "Lucida Sans Unicode", Arial, Helvetica, Verdana, sans-serif;
+  font: 12px/18px "Lucida Grande", "Lucida Sans Unicode", Arial, Helvetica, Verdana, sans-serif;
   /*-webkit-font-smoothing: antialiased;*/
 }
-@import url("Custom Themes_files/font/stylesheet.css")
 html.native_fonts body {
-  font-family: 'Google Sans',-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"!important;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 html.lang_rtl {
   direction: rtl;
@@ -46,7 +45,7 @@ body {
 
 a,
 a:hover {
-  color: #e97919;
+  color: #0088cc;
 }
 a:focus {
   text-decoration: none;
@@ -136,11 +135,11 @@ a:hover {
   border-bottom: 1px solid #e8e8e8;
 }
 .navbar-tg .nav a {
-  color: #e97919;
+  color: #0088cc;
 }
 .navbar-tg .nav a:hover,
 .navbar-tg .nav .active a {
-  color: #e97919;
+  color: #0088cc;
 }
 .navbar-tg .nav > .active > a,
 .navbar-tg .nav > .open > a,
@@ -599,7 +598,7 @@ i.anchor-icon:hover {
 }
 .side_blog_header {
   display: block;
-  color: #e97919;
+  color: #0088cc;
   font-weight: bold;
   font-size: 16px;
   margin-bottom: 15px;
@@ -616,7 +615,7 @@ a.side_blog_entry:hover {
   font-weight: bold;
 }
 .side_blog_title {
-  color: #e97919;
+  color: #0088cc;
 }
 a.side_blog_entry:hover .side_blog_title {
   text-decoration: underline;
@@ -674,7 +673,7 @@ a.side_blog_entry:hover .side_blog_title {
   content: ' ';
   display: block;
   width: 5px;
-  background:#e97919;
+  background: #179cde;
   border-radius: 5px;
   overflow: hidden;
   flex: 0 0 auto;
@@ -750,7 +749,7 @@ div.tl_main_logo.play {
   text-align: center;
   padding: 1px 0 10px;
 
-  font-family: 'Google Sans', "Helvetica Neue Light", "Helvetica Light", Helvetica, Arial , Verdana, sans-serif;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Light", Helvetica, Arial , Verdana, sans-serif;
   font-weight: 300;
 }
 
@@ -1253,7 +1252,7 @@ h3.tl_main_card_header {
 .tl_twitter_share_btn {
   display: inline-block;
   border-radius: 16px;
-  background-color: #e97919;
+  background-color: #54a9eb;
   cursor: pointer;
   margin-right: 15px;
   padding: 7px 17px;
@@ -1458,7 +1457,7 @@ a.dev_blog_card_link_wrap:hover .dev_blog_card_title {
 
 .tl_mission_wrap #dev_page_content,
 .tl_mission_wrap #dev_page_content p  {
-  font-family: 'Google Sans', "Helvetica Neue Light", "Helvetica Light", Helvetica, Arial , Verdana, sans-serif;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Light", Helvetica, Arial , Verdana, sans-serif;
   font-weight: 300;
   line-height: 160%;
   font-size: 16px;
@@ -1642,7 +1641,7 @@ a.dev_blog_card_link_wrap:hover .dev_blog_card_title {
   color: #546172;
   background: #ecf3f8;
 
-  font-family: 'Google Sans',Menlo,Consolas,"Courier New",monospace;
+  font-family: Monaco,Menlo,Consolas,"Courier New",monospace;
 }
 #dev_page_content_wrap .richcode code {
   background: #FFF;
@@ -1691,7 +1690,7 @@ a.dev_blog_card_link_wrap:hover .dev_blog_card_title {
 .dev_page_edit_form .CodeMirror {
   font-size: 14px;
   line-height: 20px;
-  font-family: 'Google Sans', Menlo, Consolas, "Courier New", monospace;
+  font-family: Monaco, Menlo, Consolas, "Courier New", monospace;
   border: 1px solid #eee;
   height: auto;
   position: relative;
@@ -2750,7 +2749,7 @@ button.dropdown-toggle:active:focus {
   outline: none;
 }
 .embed_code {
-  font-family: 'Google Sans', Monaco, Consolas, "Courier New", monospace;
+  font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
   white-space: pre-wrap;
   word-break: break-all;
   word-wrap: break-word;
@@ -2895,7 +2894,6 @@ button.dropdown-toggle:active:focus {
   font-size: 24.5px;
   line-height: 33px;
   margin: 20px 0 10px 0;
-  color:#e97919;
 }
 .tl_contest_dl_btn {
   padding: 0;
@@ -3263,7 +3261,7 @@ video.smartphone_video_player {
 
 /* Telegram Me */
 .tgme_page_wrap {
-  font-family: 'Google Sans', sans-serif;
+  font-family: 'Roboto', sans-serif;
   color: var(--text-color);
 }
 
@@ -3884,7 +3882,7 @@ a.tgme_footer_dl_button:active {
   font-size: 13px;
   color: #546172;
   background: rgba(125, 127, 129, 0.1);
-  font-family: 'Google Sans', Monaco, Consolas, "Courier New", monospace;
+  font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
   width: 100%;
   padding: 11px 17px;
   border: 1px solid rgba(125, 127, 129, 0.3);
@@ -4018,7 +4016,7 @@ html.theme_dark .tgme_page_embed_code {
 
 /* New mobile blog */
 .tlb_page_wrap {
-  font-family: 'Google Sans', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 .tlb_page_wrap a,
 .tlb_page_wrap a:hover,
@@ -4195,7 +4193,7 @@ a.tlb_blog_head_more_link .tlb_head_more_active,
 .tl_telegram_share_btn {
   display: inline-block;
   border-radius: 16px;
-  background-color: #e97919;
+  background-color: #54a9eb;
   cursor: pointer;
   line-height: 22px;
   margin-right: 10px;
@@ -4413,7 +4411,7 @@ i.tl_telegram_share_icon {
 }
 #td_about_tdesktop,
 #td_open_from_desktop {
-  font-family: 'Google Sans', 'Helvetica Neue Light', 'Helvetica Light', Helvetica, Arial , Verdana, sans-serif;
+  font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Light', Helvetica, Arial , Verdana, sans-serif;
   line-height: 148%;
   text-align: center;
 }
