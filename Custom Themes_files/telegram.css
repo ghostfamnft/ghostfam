@@ -136,11 +136,11 @@ a:hover {
   border-bottom: 1px solid #e8e8e8;
 }
 .navbar-tg .nav a {
-  color: #0088cc;
+  color: #e97919;
 }
 .navbar-tg .nav a:hover,
 .navbar-tg .nav .active a {
-  color: #0088cc;
+  color: #e97919;
 }
 .navbar-tg .nav > .active > a,
 .navbar-tg .nav > .open > a,
@@ -1253,7 +1253,7 @@ h3.tl_main_card_header {
 .tl_twitter_share_btn {
   display: inline-block;
   border-radius: 16px;
-  background-color: #54a9eb;
+  background-color: #e97919;
   cursor: pointer;
   margin-right: 15px;
   padding: 7px 17px;
@@ -4195,7 +4195,7 @@ a.tlb_blog_head_more_link .tlb_head_more_active,
 .tl_telegram_share_btn {
   display: inline-block;
   border-radius: 16px;
-  background-color: #54a9eb;
+  background-color: #e97919;
   cursor: pointer;
   line-height: 22px;
   margin-right: 10px;
