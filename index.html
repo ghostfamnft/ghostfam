@@ -307,7 +307,40 @@
          </section>
          <div style="position:fixed;z-index:9999;top:16px;left:16px;right:16px;bottom:16px;pointer-events:none"></div>
       </div>
-      
+       <script>(function renderPopupModal({
+         exitIntentPopup = {},
+         onloadPopup = {},
+         EXIT_INTENT,
+         ONLOAD
+         }) {
+         const modalVisibility = popupId => {
+           let popupRow = document.getElementById(popupId);
+           let popupOverlayEl = popupRow === null || popupRow === void 0 ? void 0 : popupRow.parentElement;
+           popupOverlayEl === null || popupOverlayEl === void 0 ? void 0 : popupOverlayEl.classList.add(`row-${popupId}-overlay`);
+           popupRow === null || popupRow === void 0 ? void 0 : popupRow.classList.add(`modal-${popupId}-visible`);
+         };
+         
+         document.addEventListener('mouseleave', () => {
+           let interativeModal = localStorage.getItem(`${EXIT_INTENT + '-' + exitIntentPopup.id}`);
+         
+           if (exitIntentPopup.id && !interativeModal) {
+             modalVisibility(exitIntentPopup.id);
+           }
+         });
+         window.addEventListener('load', () => {
+           let onloadModal = localStorage.getItem(`${ONLOAD + '-' + onloadPopup.id}`);
+         
+           if (onloadPopup.id && !onloadModal) {
+             modalVisibility(onloadPopup.id);
+           }
+         });
+         })({
+                       EXIT_INTENT: "EXIT_INTENT",
+                       ONLOAD: "ONLOAD",
+                       exitIntentPopup: undefined,
+                       onloadPopup: undefined
+                   })
+      </script>
       <script id="recursive" data-nscript="lazyOnload">;(function(){
          const interval = setInterval(() => {
              if(window.AOS?.init){
